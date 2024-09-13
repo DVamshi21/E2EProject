@@ -57,11 +57,8 @@ function Login() {
                     <Typography variant="h1" color="primary" gutterBottom>
                         Login
                     </Typography>
-
                     <TextField id="standard-basic" label="Email" defaultValue="" name='email' type="email" variant="standard" fullWidth sx={{ margin: 1 }} onChange={handleChange} />
                     <TextField id="standard-basic" label="Password" defaultValue="" name='password' type="password" variant="standard" fullWidth sx={{ margin: 1 }} onChange={handleChange} />
-
-
                     <Button className= 'LoginCss'variant="contained" type="submit" sx={{ margin: 1  }} >Login</Button>
                     <Button variant="outlined" sx={{ margin: 1 }} onClick={handleRegister} fullWidth>Register</Button>
                     

@@ -17,9 +17,6 @@ function App() {
     <Router>
       <SideBar>
         <Routes>
-
-          
-         
           <Route path="/about" element={<About />} />
           <Route path="/comments" element={<Comments />} />
           <Route path="/analytics" element={<Analytics />} />
